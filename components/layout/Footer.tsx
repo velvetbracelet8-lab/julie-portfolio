@@ -8,12 +8,6 @@ const navigation = [
   { label: "Playground", href: "/playground" },
 ];
 
-const socialLinks = [
-  { label: "LinkedIn", href: "#" },
-  { label: "GitHub", href: "#" },
-  { label: "Instagram", href: "#" },
-];
-
 export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)]">
@@ -73,34 +67,30 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Social */}
+          {/* Contact */}
           <div className="lg:col-span-4">
             <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--text-muted)]">
-              Connect
+              Contact
             </p>
 
-            <div className="flex flex-col items-start gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="text-sm transition-colors duration-200 hover:text-[var(--accent)]"
-                >
-                  {social.label}
-                </a>
-              ))}
-            </div>
+            <div className="flex flex-col items-start gap-4">
+              <a
+                href="mailto:julielupex@gmail.com"
+                className="group inline-flex items-center gap-2 text-sm font-medium transition-colors duration-200 hover:text-[var(--accent)]"
+              >
+                julielupex@gmail.com
 
-            <div className="mt-8">
-              <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--text-muted)]">
-                Email
-              </p>
+                <ArrowUpRight
+                  size={14}
+                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </a>
 
               <a
-                href="mailto:hello@julielupex.com"
-                className="group inline-flex items-center gap-2 text-sm font-medium"
+                href="tel:+254786371590"
+                className="group inline-flex items-center gap-2 text-sm font-medium transition-colors duration-200 hover:text-[var(--accent)]"
               >
-                hello@julielupex.com
+                +254 786 371 590
 
                 <ArrowUpRight
                   size={14}

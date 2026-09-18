@@ -99,8 +99,8 @@ export default function Navbar() {
             aria-current={pathname === "/contact" ? "page" : undefined}
             className={`group flex items-center gap-1 rounded-full px-5 py-3 text-xs font-bold uppercase tracking-[0.06em] transition-all duration-300 ${
               pathname === "/contact"
-                ? "bg-[var(--accent)] text-white"
-                : "bg-[var(--text)] text-[var(--bg)] hover:-translate-y-0.5 hover:bg-[var(--accent)]"
+                ? "text-[var(--accent)]"
+                : "text-[var(--text)] hover:-translate-y-0.5 hover:text-[var(--accent)]"
             }`}
           >
             Let&apos;s Talk

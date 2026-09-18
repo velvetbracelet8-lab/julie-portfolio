@@ -69,7 +69,7 @@ export default function Hero() {
               <div className="flex flex-col gap-3 sm:flex-row">
                 <Link
                   href="/work"
-                  className="group inline-flex items-center justify-center gap-3 rounded-full bg-white px-6 py-4 text-xs font-bold uppercase tracking-[0.08em] text-black transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--accent)]"
+                  className="group inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.06em] text-white transition-all duration-300 hover:text-[var(--accent)]"
                 >
                   View my work
 

@@ -23,7 +23,7 @@ export const projects: Project[] = [
       "Marketing",
       "Development",
     ],
-    image: "/images/projects/above-dental/hero.webp",
-    url: "https://abovedental.com/",
+    image:
+      "https://fazywssyelpsatnzisnn.supabase.co/storage/v1/object/public/artworks/6c07f609-7210-4766-94cd-6f0b75888f06/511e1360-b22a-46ee-af42-d971ff69f8cf.png",
   },
 ];

@@ -7,8 +7,8 @@ import PageHeader from "@/components/ui/PageHeader";
 const links = [
   {
     label: "Email",
-    value: "hello@julielupex.com",
-    href: "mailto:hello@julielupex.com",
+    value: "julielupex@gmail.com",
+    href: "mailto:julielupex@gmail.com",
     icon: Mail,
   },
 ];
@@ -184,8 +184,8 @@ export default function ContactPage() {
               </h2>
 
               <a
-                href="mailto:hello@julielupex.com"
-                className="group mt-10 inline-flex items-center gap-3 rounded-full bg-[var(--text)] px-7 py-4 text-xs font-bold uppercase tracking-[0.08em] text-[var(--bg)] transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--accent)]"
+                href="mailto:julielupex@gmail.com"
+                className="group mt-10 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.06em] text-[var(--text)] transition-colors duration-300 hover:text-[var(--accent)]"
               >
                 Send an email
 
